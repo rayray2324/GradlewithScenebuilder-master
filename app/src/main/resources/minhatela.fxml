@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutY="67.0" prefHeight="339.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Ficha">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="340.0" prefWidth="529.0" />
+            </content>
+          </Tab>
+          <Tab text="Background">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+        </tabs>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </TabPane>
+      <TextArea layoutX="2.0" layoutY="-1.0" prefHeight="70.0" prefWidth="600.0" promptText="FICHA DE PERSONAGEM" text="FICHA DE PERSONAGEM">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+         <padding>
+            <Insets left="100.0" right="50.0" />
+         </padding>
+      </TextArea>
+   </children>
+</Pane>
